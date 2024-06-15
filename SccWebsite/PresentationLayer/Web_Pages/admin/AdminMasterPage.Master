@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMasterPage.master.cs" Inherits="GUI.Web_Pages.admin.AdminMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title> SCC shop </title>
+    <link rel="icon" type="image/x-icon" href="~/Images/Icons/SCC-icon-2.png" />
+    <link rel="stylesheet" type="text/css" href="../../Css/admin-master.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="height: 100%;">
+    <div class="top-bar">
+        <button id="main-btn" type="button" onclick="window.location = 'AdminMain.aspx'">TRANG CHỦ</button>
+        <button id="logout-btn" type="button" onclick="window.location = '../Login.aspx'">ĐĂNG XUẤT</button>
+    </div>
+    <div class="body">
+        <div class="left-bar">
+            <button class="product-list-redirect-btn" onclick="window.location = 'ProductList.aspx'">
+                <img style="margin-top: auto; margin-bottom: auto; margin-left: 20px; margin-right: 20px;" src ="../../Images/Icons/box1.png"/>
+                <div style="margin-top: auto; margin-bottom: auto; font-size: 24px; font-weight: bold;">Danh sách sản phẩm</div>
+            </button>
+        </div>
+        <form id="form1" runat="server" style="width: calc(100% - 411px); height: 100%;">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </form>  
+    </div>
+</body>
+</html>

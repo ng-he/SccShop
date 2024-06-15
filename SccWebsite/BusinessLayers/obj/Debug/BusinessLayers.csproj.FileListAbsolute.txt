@@ -1,0 +1,24 @@
+E:\ASP NET Projects\ShopComputerComponentsWebsite\SccWebsite\BusinessLayers\bin\Debug\BusinessLayers.dll
+E:\ASP NET Projects\ShopComputerComponentsWebsite\SccWebsite\BusinessLayers\bin\Debug\BusinessLayers.pdb
+E:\ASP NET Projects\ShopComputerComponentsWebsite\SccWebsite\BusinessLayers\bin\Debug\DataAccessLayers.dll
+E:\ASP NET Projects\ShopComputerComponentsWebsite\SccWebsite\BusinessLayers\bin\Debug\DataTransferLayers.dll
+E:\ASP NET Projects\ShopComputerComponentsWebsite\SccWebsite\BusinessLayers\bin\Debug\DataAccessLayers.pdb
+E:\ASP NET Projects\ShopComputerComponentsWebsite\SccWebsite\BusinessLayers\bin\Debug\DataTransferLayers.pdb
+E:\ASP NET Projects\ShopComputerComponentsWebsite\SccWebsite\BusinessLayers\obj\Debug\BusinessLayers.csproj.AssemblyReference.cache
+E:\ASP NET Projects\ShopComputerComponentsWebsite\SccWebsite\BusinessLayers\obj\Debug\BusinessLayers.csproj.CoreCompileInputs.cache
+E:\ASP NET Projects\ShopComputerComponentsWebsite\SccWebsite\BusinessLayers\obj\Debug\BusinessLayers.csproj.CopyComplete
+E:\ASP NET Projects\ShopComputerComponentsWebsite\SccWebsite\BusinessLayers\obj\Debug\BusinessLayers.dll
+E:\ASP NET Projects\ShopComputerComponentsWebsite\SccWebsite\BusinessLayers\obj\Debug\BusinessLayers.pdb
+D:\ShopComputerComponentsWebsite\SccWebsite\BusinessLayers\bin\Debug\BusinessLayers.dll
+D:\ShopComputerComponentsWebsite\SccWebsite\BusinessLayers\bin\Debug\BusinessLayers.pdb
+D:\ShopComputerComponentsWebsite\SccWebsite\BusinessLayers\bin\Debug\DataAccessLayers.dll
+D:\ShopComputerComponentsWebsite\SccWebsite\BusinessLayers\bin\Debug\DataTransferLayers.dll
+D:\ShopComputerComponentsWebsite\SccWebsite\BusinessLayers\bin\Debug\DataAccessLayers.pdb
+D:\ShopComputerComponentsWebsite\SccWebsite\BusinessLayers\bin\Debug\DataTransferLayers.pdb
+D:\ShopComputerComponentsWebsite\SccWebsite\BusinessLayers\obj\Debug\BusinessLayers.csproj.AssemblyReference.cache
+D:\ShopComputerComponentsWebsite\SccWebsite\BusinessLayers\obj\Debug\BusinessLayers.csproj.CoreCompileInputs.cache
+D:\ShopComputerComponentsWebsite\SccWebsite\BusinessLayers\obj\Debug\BusinessLayers.csproj.CopyComplete
+D:\ShopComputerComponentsWebsite\SccWebsite\BusinessLayers\obj\Debug\BusinessLayers.dll
+D:\ShopComputerComponentsWebsite\SccWebsite\BusinessLayers\obj\Debug\BusinessLayers.pdb
+D:\ShopComputerComponentsWebsite\SccWebsite\BusinessLayers\bin\Debug\SqlStringGenerator.dll
+D:\ShopComputerComponentsWebsite\SccWebsite\BusinessLayers\bin\Debug\SqlStringGenerator.pdb

@@ -1,0 +1,36 @@
+﻿.welcome-background {
+    margin-left: 18px;
+    margin-top: 18px;
+    margin-right: 18px;
+    width: auto;
+    height: 820px;
+    border-radius: 15px;
+    background-color: #EDEDED;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 4px 5.2px -3px rgba(0, 0, 0, 0.13);
+}
+
+.welcome-border {
+    margin: auto;
+    width: 308px;
+    height: 85px;
+    border-radius: 15px;
+    background: linear-gradient(270deg, #B55BB4 0%, #4554BA 100%);
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome-text {
+    width: 295px;
+    height: 72px;
+    border-radius: 12px;
+    margin: auto;
+    background-color: #EDEDED;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+

@@ -1,0 +1,112 @@
+﻿.toolbar-container {
+    margin-left: 18px;
+    margin-top: 18px;
+    margin-right: 18px;
+    width: auto;
+    height: 105px;
+    border-radius: 15px;
+    background-color: #EDEDED;
+    box-shadow: 3px 4px 5.2px -3px rgba(0, 0, 0, 0.13);
+    display: flex;
+    flex-direction: row;
+}
+
+.list-container {
+    margin-left: 18px;
+    margin-top: 18px;
+    margin-right: 18px;
+    width: auto;
+}
+
+.list-container table {
+    border: none;
+    outline: none;
+}
+
+.list-container table img {
+    width: 100px;
+}
+
+.list-container table th {
+    background-color: #FC4F00;
+    color: white;
+    height: 50px;
+    border-right: 2px solid white;
+}
+
+.list-container table td {
+    border-left: 2px dashed silver;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.list-container table tr {
+    background-color: #EDEDED;    
+    border-left: 5px solid #FC4F00;
+    border-bottom: 5px solid white;
+}
+
+.list-container table tr:hover {
+    border-left: 5px solid #6FB554;
+    background-color: white;
+}
+
+.description-style {
+    text-align: justify;
+}
+
+#optional-control {
+    text-align: left;
+    vertical-align: middle;
+    height: 50px;
+    border: none;
+    background-color : white;
+}
+
+#optional-control td {
+    padding: 0px 0px 10px 0px;
+    border: none;
+}
+
+#opt-update-btn {
+    width: 198px;
+    height: 32px;
+    border: none;
+    border-radius: 15px;
+    background-color: #6FB554;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#opt-delete-btn {
+    width: 198px;
+    height: 32px;
+    border: none;
+    border-radius: 15px;
+    margin-left: 10px;
+    background-color: #FC4F00;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.insert-btn {
+    width: 200px;
+    height: 73px;
+    background-color: #FC4F00;
+    border: none;
+    border-radius: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.visible-false {
+    display: none;
+}

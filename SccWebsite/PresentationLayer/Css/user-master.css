@@ -1,0 +1,138 @@
+﻿input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-text-fill-color: black;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.top-bar {
+    height: 130px;
+    background: linear-gradient(270deg, #B55BB4 0%, #4554BA 100%);
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 316px;
+    height: 96px;
+    margin-right: 22px;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 3px 4px 5.2px -3px rgba(0, 0, 0, 0.13);
+}
+
+.tool-bar {
+    width: 862px;
+    height: 96px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 3px 4px 5.2px -3px rgba(0, 0, 0, 0.13);
+    display: flex;
+    flex-direction: row;
+}
+
+.body {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main {
+    margin-top: 22px;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.category-menu {
+    width: 316px;
+    height: 100%;
+    background-color: #EDEDED;
+    border-radius: 25px;
+    box-shadow: 3px 4px 5.2px -3px rgba(0, 0, 0, 0.13);
+}
+
+.category {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    width: 286px;
+    height: 54px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 3px 4px 5.2px -3px rgba(0, 0, 0, 0.13);
+    display: flex;
+    flex-direction: row;
+}
+
+.category a {
+    color: black;
+    text-decoration: none;
+    margin: auto;
+}
+
+.product-container {
+    width: 862px;
+    height: 100%;
+    border-radius: 25px;
+    background: linear-gradient(270deg, #B55BB4 0%, #4554BA 100%);
+    margin-left: 22px;
+}
+
+.search-container {
+    width: 411px;
+    height: 53px;
+    background-color: #D9D9D9;
+    border-radius: 25px;
+    margin-left: 25px;
+    margin-top: 21px;
+    display: flex;
+    flex-direction: row;
+}
+
+.search-container input {
+    height: 38px;
+    width: 312px;
+    background-color: #D9D9D9;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 7px;
+    margin-left: 20px;
+}
+
+.search-icon {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.register-container {
+    width: 277px;
+    margin-left: 27px;
+    display: flex;
+}
+
+.cart-container {
+    width: 94px;
+    height: 74px;
+    display: flex;
+    border-radius: 25px;
+    background-color: #6FB554;
+    box-shadow: 3px 4px 5.2px -3px rgba(0, 0, 0, 0.13);
+    margin: auto;
+}
+

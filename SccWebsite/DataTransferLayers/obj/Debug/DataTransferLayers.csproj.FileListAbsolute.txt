@@ -1,0 +1,12 @@
+E:\ASP NET Projects\ShopComputerComponentsWebsite\SccWebsite\DataTransferLayers\bin\Debug\DataTransferLayers.dll
+E:\ASP NET Projects\ShopComputerComponentsWebsite\SccWebsite\DataTransferLayers\bin\Debug\DataTransferLayers.pdb
+E:\ASP NET Projects\ShopComputerComponentsWebsite\SccWebsite\DataTransferLayers\obj\Debug\DataTransferLayers.csproj.CoreCompileInputs.cache
+E:\ASP NET Projects\ShopComputerComponentsWebsite\SccWebsite\DataTransferLayers\obj\Debug\DataTransferLayers.dll
+E:\ASP NET Projects\ShopComputerComponentsWebsite\SccWebsite\DataTransferLayers\obj\Debug\DataTransferLayers.pdb
+E:\ASP NET Projects\ShopComputerComponentsWebsite\SccWebsite\DataTransferLayers\obj\Debug\DataTransferLayers.csproj.AssemblyReference.cache
+D:\ShopComputerComponentsWebsite\SccWebsite\DataTransferLayers\bin\Debug\DataTransferLayers.dll
+D:\ShopComputerComponentsWebsite\SccWebsite\DataTransferLayers\bin\Debug\DataTransferLayers.pdb
+D:\ShopComputerComponentsWebsite\SccWebsite\DataTransferLayers\obj\Debug\DataTransferLayers.csproj.AssemblyReference.cache
+D:\ShopComputerComponentsWebsite\SccWebsite\DataTransferLayers\obj\Debug\DataTransferLayers.csproj.CoreCompileInputs.cache
+D:\ShopComputerComponentsWebsite\SccWebsite\DataTransferLayers\obj\Debug\DataTransferLayers.dll
+D:\ShopComputerComponentsWebsite\SccWebsite\DataTransferLayers\obj\Debug\DataTransferLayers.pdb

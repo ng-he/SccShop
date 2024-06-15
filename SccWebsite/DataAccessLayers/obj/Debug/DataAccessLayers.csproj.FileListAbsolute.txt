@@ -1,0 +1,20 @@
+E:\ASP NET Projects\ShopComputerComponentsWebsite\SccWebsite\DataAccessLayers\bin\Debug\DataAccessLayers.dll
+E:\ASP NET Projects\ShopComputerComponentsWebsite\SccWebsite\DataAccessLayers\bin\Debug\DataAccessLayers.pdb
+E:\ASP NET Projects\ShopComputerComponentsWebsite\SccWebsite\DataAccessLayers\bin\Debug\DataTransferLayers.dll
+E:\ASP NET Projects\ShopComputerComponentsWebsite\SccWebsite\DataAccessLayers\bin\Debug\DataTransferLayers.pdb
+E:\ASP NET Projects\ShopComputerComponentsWebsite\SccWebsite\DataAccessLayers\obj\Debug\DataAccessLayers.csproj.AssemblyReference.cache
+E:\ASP NET Projects\ShopComputerComponentsWebsite\SccWebsite\DataAccessLayers\obj\Debug\DataAccessLayers.csproj.CoreCompileInputs.cache
+E:\ASP NET Projects\ShopComputerComponentsWebsite\SccWebsite\DataAccessLayers\obj\Debug\DataAccessLayers.csproj.CopyComplete
+E:\ASP NET Projects\ShopComputerComponentsWebsite\SccWebsite\DataAccessLayers\obj\Debug\DataAccessLayers.dll
+E:\ASP NET Projects\ShopComputerComponentsWebsite\SccWebsite\DataAccessLayers\obj\Debug\DataAccessLayers.pdb
+D:\ShopComputerComponentsWebsite\SccWebsite\DataAccessLayers\bin\Debug\DataAccessLayers.dll
+D:\ShopComputerComponentsWebsite\SccWebsite\DataAccessLayers\bin\Debug\DataAccessLayers.pdb
+D:\ShopComputerComponentsWebsite\SccWebsite\DataAccessLayers\bin\Debug\DataTransferLayers.dll
+D:\ShopComputerComponentsWebsite\SccWebsite\DataAccessLayers\bin\Debug\DataTransferLayers.pdb
+D:\ShopComputerComponentsWebsite\SccWebsite\DataAccessLayers\obj\Debug\DataAccessLayers.csproj.AssemblyReference.cache
+D:\ShopComputerComponentsWebsite\SccWebsite\DataAccessLayers\obj\Debug\DataAccessLayers.csproj.CoreCompileInputs.cache
+D:\ShopComputerComponentsWebsite\SccWebsite\DataAccessLayers\obj\Debug\DataAccessLayers.csproj.CopyComplete
+D:\ShopComputerComponentsWebsite\SccWebsite\DataAccessLayers\obj\Debug\DataAccessLayers.dll
+D:\ShopComputerComponentsWebsite\SccWebsite\DataAccessLayers\obj\Debug\DataAccessLayers.pdb
+D:\ShopComputerComponentsWebsite\SccWebsite\DataAccessLayers\bin\Debug\SqlStringGenerator.dll
+D:\ShopComputerComponentsWebsite\SccWebsite\DataAccessLayers\bin\Debug\SqlStringGenerator.pdb

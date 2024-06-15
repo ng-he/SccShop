@@ -1,0 +1,214 @@
+﻿input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-text-fill-color: black;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    background: linear-gradient(270deg, #B55BB4 0%, #4554BA 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.sign-up-form-container {
+    display: flex;
+    flex-direction: column;
+    width: 893px;
+    height: 792px;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 6px 14px 33.1px 5px rgba(0, 0, 0, 0.25);
+}
+
+.table {
+    width: 90%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    vertical-align: top;
+}
+
+caption p {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.line {
+    width: 150px;
+    height: 5px;
+    background: linear-gradient(90deg, #4554BA 0%, #B55BB4 86.15%);
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.border {
+    width: 3px;
+    height: 535px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #BFBFBF;
+}
+
+td p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.field-container {
+    width: 360px;
+    height: 53px;
+    background-color: #D9D9D9;
+    margin-top: 10px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.field-container input {
+    margin-left: 15px;
+    width: 300px;
+    background-color: #D9D9D9;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.birthday-field {
+    margin-bottom: 10px;
+}
+
+.birthday-field input {
+    width: 90px;
+    height: 53px;
+    background-color: #D9D9D9;
+    margin-top: 10px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 16px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.gender-field {
+    margin-top: 10px;
+}
+
+input[type='radio'] {
+    transform: scale(1.2);
+}
+
+.gender-field label {
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+#toggle-button + span {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+input[type='checkbox'] {
+    transform: scale(1.5);
+    margin-right: 10px;
+}
+
+#btn_Submit, #btn_Reset {
+    width: 244px;
+    height: 53px;
+    flex-shrink: 0;
+    border-radius: 44px;
+    background: #6FB554;
+    box-shadow: 3px 4px 5.2px -3px rgba(0, 0, 0, 0.13);
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 20px */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 45px;
+}
+
+#btn_Submit:hover, #btn_Reset:hover, .login-redirect-form input[type='button']:hover {
+    outline: 4px solid rgb(111 181 84 / 0.50);
+}
+
+#btn_Submit:active, #btn_Reset:active, .login-redirect-form input[type='button']:active {
+    background-color: rgb(111 181 84 / 0.8);
+}
+
+small {
+    color: orangered;
+}
+
+.login-redirect-container {
+    display: none; /* | flex */
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(0,0,0, 0.5);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 99;
+}
+
+.login-redirect-form {
+    height: 120px;
+    width: 600px;
+    border-radius: 16px;
+    border: 5px solid mediumpurple;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.login-redirect-form table {
+    width: 100%;
+    height: 100%;
+}
+
+.login-redirect-form td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.login-redirect-form input[type='button'] {
+    width: 100px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 44px;
+    background: #6FB554;
+    box-shadow: 3px 4px 5.2px -3px rgba(0, 0, 0, 0.13);
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 20px */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+

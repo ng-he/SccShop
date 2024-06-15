@@ -1,0 +1,121 @@
+﻿.control-background {
+    margin-left: 18px;
+    margin-top: 18px;
+    margin-right: 18px;
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+    background-color: #EDEDED;
+    box-shadow: 3px 4px 5.2px -3px rgba(0, 0, 0, 0.13);
+}
+
+.control-container {
+    width: 95%;
+    padding-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+
+.information-container {
+    background-color: white;
+    box-shadow: 3px 4px 5.2px -3px rgba(0, 0, 0, 0.13);
+    margin-top: 26px;
+    padding-top: 26px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.information-container td {
+    padding-left: 29px;
+    padding-right: 29px;
+}
+
+.information-container p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.input-layout {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding: 15px 20px 15px 20px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #EDEDED;
+    box-shadow: 3px 4px 5.2px -3px rgba(0, 0, 0, 0.13);
+}
+
+.information-container input {
+    width: 100%;
+}
+
+.information-container select {
+    width: 100%;
+}
+
+.button {
+    width: 198px;
+    height: 57px;
+    border: none;
+    border-radius: 15px;
+    background-color: #FC4F00;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.file-button {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    background-color: #FC4F00;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-left: 39px;
+}
+
+.specifications-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    box-shadow: 3px 4px 5.2px -3px rgba(0, 0, 0, 0.13);
+    width: 100%;
+    border-radius: 15px;
+}
+
+.specifications-container td {
+    padding-left: 29px;
+    padding-right: 29px;
+    height: 45px;
+}
+
+.specifications-container p {
+    font-size: 20px;
+    font-weight: bold;
+    border-left: 6px solid #FC4F00;
+    padding-left: 20px;
+}
+
+.spec-input-layout {
+    width: 100%;
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #EDEDED;
+    box-shadow: 3px 4px 5.2px -3px rgba(0, 0, 0, 0.13);
+}

@@ -1,0 +1,85 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="UserMasterPage.master.cs" Inherits="GUI.Web_Pages.user.UserMasterPage" %>
+
+<%@ Register Src="~/Web_Pages/user/Uc_ProductCategory.ascx" TagPrefix="uc1" TagName="Uc_ProductCategory" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title> SCC shop </title>
+    <link rel="icon" type="image/x-icon" href="../../Images/Icons/SCC-icon-2.png" />
+    <link rel="stylesheet" type="text/css" href="../../Css/user-master.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="top-bar">
+            <div style="width:1200px; height: 96px; margin: auto; display: flex; flex-direction: row;">
+                <div class="logo">
+                    <img src="../../Images/Icons/SCC-icon.png" style="width: 298px; margin: auto;" />
+                </div>
+                <div class="tool-bar">
+                    <div class="search-container">
+                        <input id="InputText_Search" runat="server" type="text" placeholder="Nhập tên sản phẩm"/>
+                        <asp:ImageButton ID="ImageButton_Search" runat="server" ImageUrl="~/Images/Icons/glass1.png" OnClick="ImageButton_Search_Click" CssClass="search-icon" Width="37px" Height="37px" ImageAlign="Middle" />
+                    </div>
+                    <div class="register-container">
+                        <div style="margin: auto;">
+                            <asp:MultiView ID="MultiView1" runat="server">
+                                <asp:View ID="View1" runat="server">
+                                    <div style="font-weight: bold; font-size: 24px; text-decoration: none; color: black;">
+                                        <asp:HyperLink ID="HyperLink_Register" runat="server" NavigateUrl="~/Web_Pages/user/SignUp.aspx">Đăng Ký</asp:HyperLink> | 
+                                        <asp:HyperLink ID="HyperLink_Login" runat="server" NavigateUrl="~/Web_Pages/Login.aspx">Đăng Nhập</asp:HyperLink>
+                                    </div>
+                                </asp:View>
+                                <asp:View ID="View2" runat="server">
+                                    <table>
+                                        <tr>
+                                            <td rowspan="2" style="width: 68px; height: 68px;">
+                                                <img src="../../Images/Icons/Person2.png" style="width: 68px;"/>
+                                            </td>
+                                            <td style="text-align: left; font-weight: bold; font-size: 16px; vertical-align: middle; padding-top: 3px;">
+                                                <asp:Label ID="Label_Username" runat="server" Text=""></asp:Label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: left; font-weight: bold; font-size: 12px; vertical-align: top;">
+                                                <asp:LinkButton ID="LinkButton_Logout" runat="server" OnClick="LinkButton_Logout_Click">Đăng xuất</asp:LinkButton> |
+                                                Tài khoản của tôi
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </asp:View>
+                            </asp:MultiView>
+                        </div>
+                    </div>
+                    <div class="cart-container">
+                        <img src="../../Images/Icons/cart.png" style="margin: auto;" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="body">
+            <img src="../../Images/banner.png" />
+            <div class="main">
+                <div class="category-menu">
+                    <p style="text-align: center; font-weight: bold; font-size: 24px; margin-top: 30px;">DANH MỤC SẢN PHẨM</p>
+                    <div style="width: 286px; height: 3px; margin-top: 10px; margin-left: auto; margin-right: auto; background: linear-gradient(270deg, #B55BB4 0%, #4554BA 100%);"></div>
+                    <div style="margin-top: 30px; margin-left: auto; margin-right: auto; width: 286px;">
+                        <div class="category">
+                            <asp:HyperLink ID="HyperLink_AllProduct" runat="server" Text="Tất cả sản phẩm" NavigateUrl="~/Web_Pages/user/UserMain.aspx"></asp:HyperLink>
+                        </div>
+                        <uc1:Uc_ProductCategory runat="server" id="Uc_ProductCategory" />
+                    </div>
+                </div>
+                <div class="product-container">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+
+        </div>
+    </form>
+</body>
+</html>
